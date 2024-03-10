@@ -1,5 +1,6 @@
 import './App.scss'
 import Navbar from './Components/Navbar/Navbar'
+import HomePage from './View/HomePage/HomePage'
 
 export default function App() {
 
@@ -7,8 +8,15 @@ export default function App() {
   return (
     <>
       <header>
-        <Navbar />
+        <nav>
+          <Navbar />
+        </nav>      
       </header>
+      <main>
+        <section>
+          <HomePage />
+        </section>
+      </main>
     </>
 
   )
