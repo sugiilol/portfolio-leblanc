@@ -11,7 +11,9 @@ export default function HomePage() {
                 <h1>Hi, I'm Sébastien.</h1>
                 <h2>Frontend Developer</h2>
                 <p>Passionate about web development, I commit myself every day to deepen my knowledge and take on new challenges.<br />
-                My motivation and desire to learn guide me on the path to becoming a skilled developer, ready to contribute to this ever-evolving digital world</p>
+                    My motivation and desire to learn guide me on the path to becoming a skilled developer, ready to contribute to this ever-evolving digital world<br />
+                    I am currently looking for a two-year apprenticeship starting in September 2024 to complete my studies at the G4 Digital School.
+                </p>
                 <div className='homepage-social-link'>
                     <ul>
                         <li><a href="#"><img src={linkedin} alt="linkedin" /></a></li>
