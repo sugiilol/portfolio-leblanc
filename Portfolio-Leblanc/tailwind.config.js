@@ -6,7 +6,9 @@ export default {
   ],
   theme: {
     extend: {
-      
+      colors: {
+        'sugii-blue': '#081b29'
+      }
     },
   },
   plugins: [],
