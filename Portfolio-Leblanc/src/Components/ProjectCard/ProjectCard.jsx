@@ -11,7 +11,6 @@ export default function ProjectCard(props){
                     </div>
                 </div>
             </a>    
-        </div>
-           
+        </div>      
     )
 }
