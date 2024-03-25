@@ -1,9 +1,10 @@
 import './App.scss'
+import NavBarMobile from './Components/NavBarMobile/NavBarMobile'
 import Navbar from './Components/Navbar/Navbar'
 import HomePage from './View/HomePage/HomePage'
 import Skills from './View/Skills/Skills'
 import Projects from './View/Projects/Projects'
-import Cursus from './View/Skills/Cursus/Cursus'
+import Cursus from './View/Cursus/Cursus'
 import Contact from './View/Contact/Contact'
 import Footer from './Components/Footer/Footer'
 
@@ -14,6 +15,7 @@ export default function App() {
     <>
       <header>
         <nav>
+          <NavBarMobile />
           <Navbar />
         </nav>      
       </header>

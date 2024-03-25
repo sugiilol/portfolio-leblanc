@@ -5,9 +5,9 @@ import navbarItems from './navbarItems.json'
 export default function Navbar() {
 
     return (
-        <div className="hidden md:flex md:p-5 md:flex-row md:justify-evenly">
+        <div className="hidden fixed w-full p-5 flex-row justify-evenly md:flex">
             <div>
-                <a className="text-3xl font-semibold duration-1000 hover:text-cyan-600" href="#">Leblanc.</a>
+                <a className="text-3xl font-semibold duration-1000 hover:text-cyan-600" href="#homepage-part">Leblanc.</a>
             </div>
             <div className='flex items-center'>
                 <ul className='text-xl flex flex-row gap-5 justify-center justify-items-center'>

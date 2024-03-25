@@ -1,22 +1,22 @@
 [
     {
-        "name": "Home",
-        "url": "#"
-    },
-    {
         "name": "About",
-        "url": "#"
+        "url": "#homepage-part"
     },
     {
-        "name": "Services",
-        "url": "#"
+        "name": "Skills",
+        "url": "#skills-part"
     },
     {
-        "name": "Portfolio",
-        "url": "#"
+        "name": "Projects",
+        "url": "#skills-part"
     },
     {
-        "name": "Contact",
-        "url": "#"
+        "name": "Cursus",
+        "url": "#cursus-part"
+    },
+    {
+        "name": "Contact me",
+        "url": "#contact-part"
     }
 ]

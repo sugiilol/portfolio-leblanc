@@ -8,7 +8,7 @@ import prestaIcon from './imgs/prestaLogo.png'
 import figmaIcon from './imgs/figmaLogo.png'
 export default function Skills() {
     return (
-        <div className="flex flex-col justify-center items-center px-5">
+        <div id="skills-part" className="flex flex-col justify-center items-center px-5">
             <h2 className="text-5xl font-semibold my-16">Skill<span className="text-cyan-600">s</span></h2>
             <ul className='flex flex-row flex-wrap justify-center items-center gap-10 px-20 md:gap-20'>
                 <li><img className="h-12 md:h-20" src={htmlIcon} alt="html" /></li>

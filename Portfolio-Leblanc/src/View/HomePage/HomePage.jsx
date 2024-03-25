@@ -6,7 +6,7 @@ import linkedin from './imgs/linkedin.png'
 
 export default function HomePage() {
     return (
-        <div className="flex flex-col justify-center items-center px-10 pt-20 gap-10 md:pt-10 md:px-20 lg:flex-row lg:pt-16">
+        <div id="homepage-part" className="flex flex-col justify-center items-center px-10 pt-20 gap-10 md:pt-32 md:px-20 lg:flex-row ">
             <div className='flex flex-col gap-3 lg:w-2/5'>
                 <h1 className='text-3xl font-semibold md:text-5xl md:text-5xl'>Hi, I'm Sébastien.</h1>
                 <h2 className='text-2xl font-semibold text-cyan-600 md:text-3xl lg:text-4xl'><span className='typeWriter' data-text='["Frontend developer", "In search of an apprenticeship", "Future full-stack developer"]' data-speed='3' data-end='500'></span></h2>
@@ -16,14 +16,15 @@ export default function HomePage() {
                 </p>
                 <div>
                     <ul className='flex flex-row gap-3 py-5'>
-                        <li className='w-10 h-10 rounded-full' ><a href="#"><img className='rounded-full transition duration-700 shadow hover:shadow-cyan-600 hover:scale-110' src={linkedin} alt="Linkedin" /></a></li>
-                        <li className='w-10 h-10 rounded-full' ><a href="#"><img className='rounded-full transition duration-700 shadow hover:shadow-cyan-600 hover:scale-110' src={github} alt="Github" /></a></li>
+                        <li className='w-10 h-10 rounded-full' ><a href="https://www.linkedin.com/in/leblanc-sbt/" target="_blank"><img className='rounded-full transition duration-700 shadow hover:shadow-cyan-600 hover:scale-110' src={linkedin} alt="Linkedin" /></a></li>
+                        <li className='w-10 h-10 rounded-full' ><a href="https://github.com/sugiilol" target="_blank"><img className='rounded-full transition duration-700 shadow hover:shadow-cyan-600 hover:scale-110' src={github} alt="Github" /></a></li>
                         <li className='w-10 h-10 rounded-full' ><a href="#"><img className='rounded-full transition duration-700 shadow hover:shadow-cyan-600 hover:scale-110' src={discord} alt="Discord" /></a></li>
-                        <li className='w-10 h-10 rounded-full' ><a href="#"><img className='rounded-full transition duration-700 shadow hover:shadow-cyan-600 hover:scale-110' src={facebook} alt="Facebook" /></a></li>
+                        <li className='w-10 h-10 rounded-full' ><a href="https://www.facebook.com/sebastien.leblanc.353250" target="_blank"><img className='rounded-full transition duration-700 shadow hover:shadow-cyan-600 hover:scale-110' src={facebook} alt="Facebook" /></a></li>
                     </ul>
                 </div>
                 <div>
-                    <button className='pl-5 pr-5 h-12 rounded-full border-2 border-cyan-600 duration-700 hover:bg-cyan-600'>Hire me !</button>
+                    {/* <button className='pl-5 pr-5 h-12 rounded-full border-2 border-cyan-600 duration-700 hover:bg-cyan-600'>Hire me !</button> */}
+                    <a href="#contact-part" className='pl-5 pr-5 pt-3 pb-3 rounded-full border-2 border-cyan-600 duration-700 hover:bg-cyan-600'>Hire me !</a>
                 </div>
             </div>
             <div className='flex items-center justify-center rounded-full pb-20 md:w-100'>

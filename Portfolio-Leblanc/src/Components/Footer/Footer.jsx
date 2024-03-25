@@ -13,11 +13,11 @@ export default function Footer() {
                 <li className='w-10 h-10 rounded-full' ><a href="#"><img className='rounded-full transition duration-700 shadow hover:shadow-cyan-600 hover:scale-110' src={facebook} alt="Facebook" /></a></li>
             </ul>
             <ul className='flex flex-row gap-3 py-5'>
-                <li className='duration-700 hover:text-cyan-600'><a href="#">Home</a></li>
-                <li className='duration-700 hover:text-cyan-600'><a href="#">About</a></li>
-                <li className='duration-700 hover:text-cyan-600'><a href="#">Services</a></li>
-                <li className='duration-700 hover:text-cyan-600'><a href="#">Portfolio</a></li>
-                <li className='duration-700 hover:text-cyan-600'><a href="#">Contact</a></li>
+                <li className='duration-700 hover:text-cyan-600'><a href="#homepage-part">About</a></li>
+                <li className='duration-700 hover:text-cyan-600'><a href="#skills-part">Skills</a></li>
+                <li className='duration-700 hover:text-cyan-600'><a href="#skills-part">Projects</a></li>
+                <li className='duration-700 hover:text-cyan-600'><a href="#cursus-part">Cursus</a></li>
+                <li className='duration-700 hover:text-cyan-600'><a href="#contact-part">Contact me</a></li>
             </ul>
             <p className='text-xs'>© Leblanc Sébastien | All Rights Reserved</p>
         </div>
