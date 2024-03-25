@@ -5,7 +5,7 @@ export default function Contact() {
     const onSubmit = (data) => console.log(data)
 
     return (
-        <div className="m-10 flex flex-col justify-center items-center">
+        <div id="contact-part" className="m-10 flex flex-col justify-center items-center lg:pb-48">
             <h2 className="text-5xl font-semibold my-16">Contact <span className="text-cyan-600">me</span></h2>
             <form className="w-full flex flex-col gap-5 lg:flex-row lg:w-3/4 xl:w-2/4 2xl:w-2/5" onSubmit={handleSubmit(onSubmit)}>
                 <div className="flex flex-col items-center w-full gap-5 w-96">
