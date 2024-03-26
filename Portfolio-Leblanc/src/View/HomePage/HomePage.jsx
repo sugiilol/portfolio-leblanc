@@ -18,7 +18,7 @@ export default function HomePage() {
                     <ul className='flex flex-row gap-3 py-5'>
                         <li className='w-10 h-10 rounded-full' ><a href="https://www.linkedin.com/in/leblanc-sbt/" target="_blank"><img className='rounded-full transition duration-700 shadow hover:shadow-cyan-600 hover:scale-110' src={linkedin} alt="Linkedin" /></a></li>
                         <li className='w-10 h-10 rounded-full' ><a href="https://github.com/sugiilol" target="_blank"><img className='rounded-full transition duration-700 shadow hover:shadow-cyan-600 hover:scale-110' src={github} alt="Github" /></a></li>
-                        <li className='w-10 h-10 rounded-full' ><a href="#"><img className='rounded-full transition duration-700 shadow hover:shadow-cyan-600 hover:scale-110' src={discord} alt="Discord" /></a></li>
+                        {/* <li className='w-10 h-10 rounded-full' ><a href="#"><img className='rounded-full transition duration-700 shadow hover:shadow-cyan-600 hover:scale-110' src={discord} alt="Discord" /></a></li> */}
                         <li className='w-10 h-10 rounded-full' ><a href="https://www.facebook.com/sebastien.leblanc.353250" target="_blank"><img className='rounded-full transition duration-700 shadow hover:shadow-cyan-600 hover:scale-110' src={facebook} alt="Facebook" /></a></li>
                     </ul>
                 </div>
