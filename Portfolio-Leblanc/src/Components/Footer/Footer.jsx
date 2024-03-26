@@ -7,10 +7,10 @@ export default function Footer() {
     return (
         <div className="w-100 flex flex-col items-center justify-center pb-8">
             <ul className='flex flex-row gap-3'>
-                <li className='w-10 h-10 rounded-full' ><a href="#"><img className='rounded-full transition duration-700 shadow hover:shadow-cyan-600 hover:scale-110' src={linkedin} alt="Linkedin" /></a></li>
-                <li className='w-10 h-10 rounded-full' ><a href="#"><img className='rounded-full transition duration-700 shadow hover:shadow-cyan-600 hover:scale-110' src={github} alt="Github" /></a></li>
-                <li className='w-10 h-10 rounded-full' ><a href="#"><img className='rounded-full transition duration-700 shadow hover:shadow-cyan-600 hover:scale-110' src={discord} alt="Discord" /></a></li>
-                <li className='w-10 h-10 rounded-full' ><a href="#"><img className='rounded-full transition duration-700 shadow hover:shadow-cyan-600 hover:scale-110' src={facebook} alt="Facebook" /></a></li>
+                <li className='w-10 h-10 rounded-full' ><a href="https://www.linkedin.com/in/leblanc-sbt/" target="_blank"><img className='rounded-full transition duration-700 shadow hover:shadow-cyan-600 hover:scale-110' src={linkedin} alt="Linkedin" /></a></li>
+                <li className='w-10 h-10 rounded-full' ><a href="https://github.com/sugiilol" target="_blank"><img className='rounded-full transition duration-700 shadow hover:shadow-cyan-600 hover:scale-110' src={github} alt="Github" /></a></li>
+                {/* <li className='w-10 h-10 rounded-full' ><a href="#"><img className='rounded-full transition duration-700 shadow hover:shadow-cyan-600 hover:scale-110' src={discord} alt="Discord" /></a></li> */}
+                <li className='w-10 h-10 rounded-full' ><a href="https://www.facebook.com/sebastien.leblanc.353250" target="_blank"><img className='rounded-full transition duration-700 shadow hover:shadow-cyan-600 hover:scale-110' src={facebook} alt="Facebook" /></a></li>
             </ul>
             <ul className='flex flex-row gap-3 py-5'>
                 <li className='duration-700 hover:text-cyan-600'><a href="#homepage-part">About</a></li>
