@@ -2,7 +2,32 @@ import { useForm } from "react-hook-form"
 
 export default function Contact() {
     const { register, handleSubmit } = useForm()
-    const onSubmit = (data) => console.log(data)
+
+/************************************/
+
+async function postJSON(data) {
+    try {
+      const response = await fetch("http://localhost:3000/api/postemail/", {
+        method: "POST", // or 'PUT'
+        headers: {
+          "Content-Type": "application/json",
+        },
+        body: JSON.stringify(data),
+      });
+  
+      const result = await response.json();
+      console.log("Success:", result);
+    } catch (error) {
+      console.error("Error:", error);
+    }
+  }
+
+/************************************/
+
+    const onSubmit = (data) => {
+        console.log(data)
+        postJSON(data);
+    }
 
     return (
         <div id="contact-part" className="m-10 flex flex-col justify-center items-center lg:pb-48">
