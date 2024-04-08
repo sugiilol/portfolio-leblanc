@@ -8,7 +8,7 @@ export default function NavBarMobile() {
     let classNavbarMenu = ["absolute", "rounded-r-lg", "w-44", "h-72", "duration-700", "flex", "flex-col", "justify-center", "items-center", "gap-5", "bg-cyan-700/100", "-ml-56"]
 
     if (navbarIsOpen === true) {
-        classNavbarMenu = ["absolute", "rounded-r-lg", "w-44","h-72", "duration-700", "flex", "flex-col", "justify-center", "items-center", "gap-5", "bg-cyan-700/100", "-ml-10"]
+        classNavbarMenu = ["absolute", "rounded-r-lg", "w-44", "h-72", "duration-700", "flex", "flex-col", "justify-center", "items-center", "gap-5", "bg-cyan-700/100", "-ml-10"]
     }
 
     return (
@@ -21,8 +21,7 @@ export default function NavBarMobile() {
             <ul className={classNavbarMenu.join(' ')}>
                 <li><a href="#homepage-part" className="text-2xl text-sugii-blue font-bold">Leblanc.</a></li>
                 <li><a href="#homepage-part" >Home</a></li>
-                <li><a href="#skills-part">Skills</a></li>
-                <li><a href="#skills-part">Projects</a></li>
+                <li><a href="#projects-part">Projects</a></li>
                 <li><a href="#cursus-part">Cursus</a></li>
                 <li><a href="#contact-part">Contact me</a></li>
             </ul>
