@@ -4,6 +4,7 @@ import facebook from './imgs/facebook.png'
 import github from './imgs/github.png'
 import linkedin from './imgs/linkedin.png'
 import mail from './imgs/mail.png'
+import leblancThumb from './imgs/leblanc-thumb400x400.png'
 
 export default function HomePage() {
     return (
@@ -29,7 +30,7 @@ export default function HomePage() {
                 </div>
             </div>
             <div className='flex items-center justify-center rounded-full pb-20 md:w-100'>
-                <img className="w-full rounded-full transition duration-700 shadow-xl shadow-cyan-600 lg:w-100" src="https://placehold.co/300x300" alt="Leblanc Sébastien" />
+                <img className="w-full rounded-full transition duration-700 shadow-xl shadow-cyan-600 lg:w-100" src={leblancThumb} alt="Leblanc Sébastien" />
             </div>
         </div>
     )
