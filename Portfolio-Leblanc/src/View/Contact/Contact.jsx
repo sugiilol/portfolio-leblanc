@@ -1,28 +1,47 @@
+import { useState } from "react";
 import { useForm } from "react-hook-form"
 
 export default function Contact() {
     const { register, handleSubmit } = useForm()
 
-/************************************/
+    /************************************/
 
-async function postJSON(data) {
-    try {
-      const response = await fetch("http://localhost:3000/api/postemail/", {
-        method: "POST", // or 'PUT'
-        headers: {
-          "Content-Type": "application/json",
-        },
-        body: JSON.stringify(data),
-      });
-  
-      const result = await response.json();
-      console.log("Success:", result);
-    } catch (error) {
-      console.error("Error:", error);
+    const [feedBackMail, setFeedBackMail] = useState(null)
+    let classFeedBack = ["hidden", "justify-center", "items-center", "p-6", "h-10", "my-5", "rounded-full", "bg-green-600", "duration-700"]
+    let messageFeedBack = undefined
+
+    if (feedBackMail === true) {
+        classFeedBack = ["flex", "justify-center", "items-center", "p-6", "h-10", "my-5", "rounded-full", "bg-green-600", "duration-700"]
+        messageFeedBack = "Votre message a bien été envoyé !"
     }
-  }
+    else if (feedBackMail === false) {
+        classFeedBack = ["flex", "justify-center", "items-center", "p-6", "h-10", "my-5", "rounded-full", "bg-red-600", "duration-700"]
+        messageFeedBack = "Une erreur est survenue, votre message n'a pas été envoyé !"
+    }
 
-/************************************/
+    async function postJSON(data) {
+        try {
+            const response = await fetch("http://localhost:3000/api/postemail/", {
+                method: "POST", // or 'PUT'
+                headers: {
+                    "Content-Type": "application/json",
+                },
+                body: JSON.stringify(data),
+            });
+
+            const result = await response.json()
+
+            setFeedBackMail(true)
+            console.log("Success:", result, "feedBack : ", feedBackMail)
+        } catch (error) {
+
+            setFeedBackMail(false)
+            console.error("Error:", error, "feedBack : ", feedBackMail)
+            console.log(classFeedBack)
+        }
+    }
+
+    /************************************/
 
     const onSubmit = (data) => {
         console.log(data)
@@ -44,6 +63,9 @@ async function postJSON(data) {
                     <input className="pl-5 pr-5 h-12 rounded-full border-2 border-cyan-600 duration-700 hover:bg-cyan-600" type="submit" value="Send message" />
                 </div>
             </form>
+            <div className={classFeedBack.join(' ')}>
+                {messageFeedBack}
+            </div>
         </div>
     )
 }
