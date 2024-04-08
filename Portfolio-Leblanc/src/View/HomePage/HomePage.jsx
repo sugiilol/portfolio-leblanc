@@ -29,7 +29,7 @@ export default function HomePage() {
                 </div>
             </div>
             <div className='flex items-center justify-center rounded-full pb-20 md:w-100'>
-                <img className="w-full rounded-full transition duration-700 shadow-xl shadow-cyan-600 lg:w-100" src="https://placehold.co/450x450" alt="Leblanc Sébastien" />
+                <img className="w-full rounded-full transition duration-700 shadow-xl shadow-cyan-600 lg:w-100" src="https://placehold.co/300x300" alt="Leblanc Sébastien" />
             </div>
         </div>
     )
