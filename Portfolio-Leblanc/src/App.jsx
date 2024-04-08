@@ -5,6 +5,7 @@ import HomePage from './View/HomePage/HomePage'
 import Projects from './View/Projects/Projects'
 import Cursus from './View/Cursus/Cursus'
 import Contact from './View/Contact/Contact'
+import ContactLink from './View/ContactLink/ContactLink'
 import Footer from './Components/Footer/Footer'
 
 export default function App() {
@@ -30,6 +31,9 @@ export default function App() {
         </section>
         <section>
           <Contact />
+        </section>
+        <section>
+          <ContactLink />
         </section>
       </main>
       <footer>
