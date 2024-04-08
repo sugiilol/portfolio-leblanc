@@ -4,12 +4,8 @@
         "url": "#homepage-part"
     },
     {
-        "name": "Skills",
-        "url": "#skills-part"
-    },
-    {
         "name": "Projects",
-        "url": "#skills-part"
+        "url": "#projects-part"
     },
     {
         "name": "Cursus",
