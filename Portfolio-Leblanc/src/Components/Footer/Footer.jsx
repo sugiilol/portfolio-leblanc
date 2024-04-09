@@ -15,8 +15,7 @@ export default function Footer() {
             </ul>
             <ul className='flex flex-row gap-3 py-5'>
                 <li className='duration-700 hover:text-cyan-600'><a href="#homepage-part">About</a></li>
-                <li className='duration-700 hover:text-cyan-600'><a href="#skills-part">Skills</a></li>
-                <li className='duration-700 hover:text-cyan-600'><a href="#skills-part">Projects</a></li>
+                <li className='duration-700 hover:text-cyan-600'><a href="#projects-part">Projects</a></li>
                 <li className='duration-700 hover:text-cyan-600'><a href="#cursus-part">Cursus</a></li>
                 <li className='duration-700 hover:text-cyan-600'><a href="#contact-part">Contact me</a></li>
             </ul>
