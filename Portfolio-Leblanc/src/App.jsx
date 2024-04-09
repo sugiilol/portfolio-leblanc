@@ -29,9 +29,9 @@ export default function App() {
         <section>
           <Cursus />
         </section>
-        <section>
+        {/* <section>
           <Contact />
-        </section>
+        </section> */}
         <section>
           <ContactLink />
         </section>
