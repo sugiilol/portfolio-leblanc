@@ -24,8 +24,8 @@ export default function Projects() {
                 <li><img className="h-11 md:h-11 duration-700 hover:scale-110" src={figmaIcon} alt="figma" /></li>
             </ul>
             <div className="flex flex-row flex-wrap justify-center items-center gap-10">
-                <ProjectCard imageUrl='/imgs/bateau.jpg' />
-                <ProjectCard imageUrl='/imgs/vaisseau.png' />
+                <ProjectCard imageUrl='/imgs/bateau.jpg' link="https://fullmoon-shop.com/fr/" title="FullMoon Shop"/>
+                <ProjectCard imageUrl='/imgs/vaisseau.png' title="Thorvald" description="(In progress)"/>
             </div>
         </div>
     )
