@@ -5,7 +5,7 @@ import navbarItems from './navbarItems.json'
 export default function Navbar() {
 
     return (
-        <div className="hidden fixed w-full p-5 flex-row justify-evenly md:flex">
+        <div className="hidden fixed w-full p-5 flex-row justify-evenly bg-sugii-blue md:flex">
             <div>
                 <a className="text-3xl font-semibold duration-1000 hover:text-cyan-600" href="#homepage-part">Leblanc.</a>
             </div>

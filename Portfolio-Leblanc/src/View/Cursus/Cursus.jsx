@@ -1,7 +1,7 @@
 export default function Cursus() {
     return (
         <div id="cursus-part" className="flex flex-col justify-center items-center px-10 duration-700">
-            <h2 className="text-5xl font-semibold my-16">Cursu<span className="text-cyan-600">s</span></h2>
+            <h2 className="text-5xl font-semibold mt-20">Cursu<span className="text-cyan-600">s</span></h2>
             <div className="flex flex-col-reverse justify-center items-center gap-20 md:flex-row">
                 <div className="flex flex-col justify-center items-center">
                     <h3 className="text-3xl font-semibold my-16">My journe<span className="text-cyan-600">y</span></h3>

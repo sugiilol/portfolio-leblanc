@@ -1,26 +1,26 @@
 [
     {
-        "title" : "Linkedin",
-        "link" : "https://www.linkedin.com/in/leblanc-sbt/",
-        "icon": "/imgs/icons/linkedin.png",
-        "alt" : "linkedin-logo"
+        "title": "Linkedin",
+        "link": "https://www.linkedin.com/in/leblanc-sbt/",
+        "icon": "../imgs/icons/linkedin.png",
+        "alt": "linkedin-logo"
     },
     {
-        "title" : "Github",
-        "link" : "https://github.com/sugiilol",
-        "icon": "/imgs/icons/github.png",
-        "alt" : "github-logo"
+        "title": "Github",
+        "link": "https://github.com/sugiilol",
+        "icon": "../imgs/icons/github.png",
+        "alt": "github-logo"
     },
     {
-        "title" : "Facebook",
-        "link" : "https://www.facebook.com/sebastien.leblanc.353250",
-        "icon": "/imgs/icons/facebook.png",
-        "alt" : "facebook-logo"
+        "title": "Facebook",
+        "link": "https://www.facebook.com/sebastien.leblanc.353250",
+        "icon": "../imgs/icons/facebook.png",
+        "alt": "facebook-logo"
     },
     {
-        "title" : "Mail",
-        "link" : "mailto:leblanc.sbt@gmail.com",
-        "icon": "/imgs/icons/mail.png",
-        "alt" : "mail-logo"
+        "title": "Mail",
+        "link": "mailto:leblanc.sbt@gmail.com",
+        "icon": "../imgs/icons/mail.png",
+        "alt": "mail-logo"
     }
 ]
