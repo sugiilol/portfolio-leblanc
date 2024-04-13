@@ -1,5 +1,3 @@
-// import './HomePage.scss'
-import discord from './imgs/discord.png'
 import facebook from './imgs/facebook.png'
 import github from './imgs/github.png'
 import linkedin from './imgs/linkedin.png'
@@ -25,8 +23,7 @@ export default function HomePage() {
                     </ul>
                 </div>
                 <div>
-                    {/* <button className='pl-5 pr-5 h-12 rounded-full border-2 border-cyan-600 duration-700 hover:bg-cyan-600'>Hire me !</button> */}
-                    <a href="#contact-part" className='pl-5 pr-5 pt-3 pb-3 rounded-full border-2 border-cyan-600 duration-700 hover:bg-cyan-600'>Hire me !</a>
+                    <a href="#contact-part" className='pl-10 pr-10 pt-3 pb-3 rounded-lg border-2 bg-cyan-950 border-cyan-600 duration-700 hover:bg-cyan-600'>Hire me !</a>
                 </div>
             </div>
             <div className='flex items-center justify-center rounded-full pb-20 md:w-100'>

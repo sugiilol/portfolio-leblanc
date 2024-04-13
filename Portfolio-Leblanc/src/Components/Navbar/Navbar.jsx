@@ -1,6 +1,4 @@
-// import './Navbar.scss'
 import navbarItems from './navbarItems.json'
-
 
 export default function Navbar() {
 
