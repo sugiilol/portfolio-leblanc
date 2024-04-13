@@ -11,7 +11,7 @@ export default function HomePage() {
         <div id="homepage-part" className="flex flex-col justify-center items-center px-10 pt-20 gap-10 md:pt-32 md:px-20 lg:flex-row ">
             <div className='flex flex-col gap-3 lg:w-2/5'>
                 <h1 className='text-3xl font-semibold md:text-5xl md:text-5xl'>Hi, I'm Sébastien.</h1>
-                <h2 className='text-2xl font-semibold text-cyan-600 md:text-3xl lg:text-4xl'><span className='typeWriter' data-text='["Frontend developer", "In search of an apprenticeship", "Future full-stack developer"]' data-speed='3' data-end='500'></span></h2>
+                <h2 className='h-14 text-2xl font-semibold text-cyan-600 md:text-3xl lg:text-4xl lg:h-20'><span className='typeWriter' data-text='["Frontend developer", "In search of an apprenticeship", "Future full-stack developer"]' data-speed='3' data-end='500'></span></h2>
                 <p className='text-l'>Passionate about web development, I commit myself every day to deepen my knowledge and take on new challenges.<br />
                     My motivation and desire to learn guide me on the path to becoming a skilled developer, ready to contribute to this ever-evolving digital world<br />
                     I am currently looking for a two-year apprenticeship starting in September 2024 to complete my studies at the G4 Digital School.
