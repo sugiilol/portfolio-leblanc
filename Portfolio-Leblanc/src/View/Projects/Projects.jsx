@@ -18,8 +18,8 @@ export default function Projects() {
             <h2 className="text-5xl font-semibold my-20">Project<span className="text-cyan-600">s</span></h2>
             <ul className='flex flex-row flex-wrap justify-center items-center gap-5 px-20 mb-16'>
                 <TechnoIcons img={htmlIcon} alt="html" name="html" />
-                <TechnoIcons img={cssIcon} alt="Css" name="Css" />
-                <TechnoIcons img={jsIcon} alt="Js" name="Js" />
+                <TechnoIcons img={cssIcon} alt="Css" name="CSS" />
+                <TechnoIcons img={jsIcon} alt="Js" name="JavaScript" />
                 <TechnoIcons img={reactIcon} alt="React" name="React" />
                 <TechnoIcons img={tailwindIcon} alt="Tailwind" name="Tailwind" />
                 <TechnoIcons img={wordpressIcon} alt="Wordpress" name="Wordpress" />
