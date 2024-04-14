@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="404.scss">
+    <title>Document</title>
+
+    <style>
+        body {
+            background-color: #081b29;
+            margin: 0px;
+            padding: 50px;
+        }
+
+        .img-triforce {
+            width: 300px;
+        }
+
+        .container-error-page {
+
+            width: 100%;
+            height: 100%;
+            display: flex;
+            flex-direction: column;
+            gap: 10px;
+            align-items: center;
+            justify-content: center;
+
+        }
+
+        h1 {
+            padding: 0;
+            margin: 0;
+            color: #1baaec;
+            font-size: 4rem;
+            font-weight: 900;
+            align-items: center;
+        }
+
+        a {
+            font-size: 2rem;
+            color: #fff;
+            text-decoration: none;
+            transition: 0.7s;
+        }
+
+        a:hover {
+            color: #1baaec;
+        }
+
+        @media screen and (max-width: 760px) {
+            h1 {
+                font-size: 2rem;
+            }
+
+            a {
+                font-size: 1.5rem;
+            }
+        }
+    </style>
+</head>
+
+<body class="body-404">
+    <div class="container-error-page">
+        <img class="img-triforce" src="./triforce.png" alt="triforce-logo">
+        <h1>Cette page n'existe pas ! </h1>
+        <a href="http://www.leblanc-sebastien.fr">=> De retour à mon portfolio !</a>
+    </div>
+</body>
+
+</html>
