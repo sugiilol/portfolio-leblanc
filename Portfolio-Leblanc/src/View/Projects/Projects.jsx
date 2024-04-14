@@ -16,7 +16,7 @@ export default function Projects() {
     return (
         <div id="projects-part" className="flex flex-col justify-center items-center px-5 mb-20">
             <h2 className="text-5xl font-semibold my-20">Project<span className="text-cyan-600">s</span></h2>
-            <ul className='flex flex-row flex-wrap justify-center items-center gap-5 px-20 mb-16'>
+            <ul className='flex flex-row flex-wrap justify-center items-center gap-5 mb-16 sm:px-20'>
                 <TechnoIcons img={htmlIcon} alt="html" name="html" />
                 <TechnoIcons img={cssIcon} alt="Css" name="CSS" />
                 <TechnoIcons img={jsIcon} alt="Js" name="JavaScript" />
